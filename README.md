@@ -21,6 +21,9 @@ https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-
 5. Adjust scheduling sampling when necessarily.
 6. Generate the image as usual.
 
+# Gallery
+
+
 # Limitations
 1. We currently do not support SDXL yet due to limited computation resources.
 2. It could possibly cause conflicts with other extensions.
