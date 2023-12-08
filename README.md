@@ -3,7 +3,8 @@ Warning: experimental inital implementation, feel free to provide feedback and p
 
 This extension is designed for AUTOMATIC1111's Stable Diffusion web UI, enabling the integration of InteractDiffusion with the original Stable Diffusion model. This integration enhances the capability of the web UI to control the interactions in image generation. It works with DreamBooth and LoRA models.
 
-https://github.com/jiuntian/sd-webui-interactdiffusion/raw/main/docs/assets/extension%20demo%201080.mp4
+https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-197a-46b2-b3c5-df659aa97f07
+
 
 # Installation
 1. Install the extension via link.
