@@ -487,6 +487,7 @@ def infotext_pasted(infotext, params):
     logging.warn(f"infotext: {infotext}")
     logging.warn(f"params: {params}")
 
-script_callbacks.on_infotext_pasted(Infotext.on_infotext_pasted)
+# infotext is still buggy
+# script_callbacks.on_infotext_pasted(Infotext.on_infotext_pasted)
 
 
