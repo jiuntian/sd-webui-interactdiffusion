@@ -35,4 +35,4 @@ https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-
 3. Some artefacts could happens on some LoRA models.
 
 # Related Projects
-"This implementation is constructed based on the foundation of [sd_webui_gligen](https://github.com/ashen-sensored/sd_webui_gligen).
+This implementation is constructed based on the foundation of [sd_webui_gligen](https://github.com/ashen-sensored/sd_webui_gligen).
