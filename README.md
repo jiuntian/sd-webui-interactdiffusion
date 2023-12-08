@@ -15,7 +15,7 @@ https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-
 
 # How to Use
 1. Enable the extension by checking the `Enabled`.
-2. Please append comma seperator to end of each entry in grounding instructions like "person,feeding;cat;".
+2. Please append comma seperator to end of each entry in grounding instructions like "tohru=feeding=cat;a=doing=b".
 3. Click on `Create Drawing Canvas` to create a new canvas.
 4. Draw correspinding bounding boxes for subject and object, and verify the interactions on the right side.
 5. Adjust scheduling sampling when necessarily.
