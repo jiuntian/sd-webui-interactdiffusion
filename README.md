@@ -25,6 +25,8 @@ https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-
 &nbsp;| &nbsp;| &nbsp;| &nbsp;
 --- | --- | --- | ---
 ![image (7)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/e4ff1279-1b08-41c9-9ea3-45ec3667115e) | ![image (5)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/dfd254ea-f6fb-4fc4-9fe6-8222fe47ee12) | ![image (6)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/a6df1288-3315-4738-9db8-d9cb9bd01038) | ![image (4)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/1766e775-ce6c-4705-a376-4aa8e62bcceb)
+![cuteyukimix_1](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/1416f2b6-4907-4ac7-bb03-b5d2b5adcd91)|![cuteyukimix_7](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7b619e4e-7d0b-4989-85f9-422fbd6a6319)|![darksushimix_1](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/2b81abe3-a39a-4db8-9e7a-63336f96d7e3)|![toonyou_6](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/ce027fac-7840-44cc-9f69-0bdeef5da1da)
+
 
 
 # Limitations
