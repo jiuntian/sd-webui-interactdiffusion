@@ -191,7 +191,7 @@ shared.pluggable_ID = None
 class Script(scripts.Script):
     def __init__(self):
         model_path = pathlib.Path(__file__).parent.parent / 'models' / 'ext_interactdiff_v1.2.pth'
-        interactdiffusion_state_dict = torch.load(str(model_path), map_location='cuda')
+        interactdiffusion_state_dict = torch.load(str(model_path), map_location=shared.device)
         if not shared.pluggable_ID:
             shared.pluggable_ID = PluggableInteractDiffusion(shared.sd_model.model.diffusion_model,interactdiffusion_state_dict)
         return
