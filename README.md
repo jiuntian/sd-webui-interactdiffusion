@@ -1,7 +1,7 @@
 # InteractDiffusion for Automatic1111 Stable Diffusion WebUI
 Warning: experimental inital implementation, feel free to provide feedback and pull request to improve this extension.
 
-This extension is designed for AUTOMATIC1111's Stable Diffusion web UI, enabling the integration of InteractDiffusion with the original Stable Diffusion model. This integration enhances the capability of the web UI to control the interactions in image generation. It works with DreamBooth and LoRA models.
+This extension is designed for AUTOMATIC1111's Stable Diffusion web UI, enabling the integration of [InteractDiffusion](https://github.com/jiuntian/interactdiffusion) with the original Stable Diffusion model. This integration enhances the capability of the web UI to **control the interactions** in image generation. It works with DreamBooth and LoRA models.
 
 https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-197a-46b2-b3c5-df659aa97f07
 
@@ -22,6 +22,7 @@ https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-
 6. Generate the image as usual.
 
 # Gallery
+Some examples generated with InteractDiffusion, together with other DreamBooth and LoRA models.
 &nbsp;| &nbsp;| &nbsp;| &nbsp;
 --- | --- | --- | ---
 ![image (7)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/e4ff1279-1b08-41c9-9ea3-45ec3667115e) | ![image (5)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/dfd254ea-f6fb-4fc4-9fe6-8222fe47ee12) | ![image (6)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/a6df1288-3315-4738-9db8-d9cb9bd01038) | ![image (4)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/1766e775-ce6c-4705-a376-4aa8e62bcceb)
