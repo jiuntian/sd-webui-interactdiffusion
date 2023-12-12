@@ -1,19 +1,21 @@
 # InteractDiffusion for Automatic1111 Stable Diffusion WebUI
+
 Warning: experimental inital implementation, feel free to provide feedback and pull request to improve this extension.
 
 This extension is designed for AUTOMATIC1111's Stable Diffusion web UI, enabling the integration of [InteractDiffusion](https://github.com/jiuntian/interactdiffusion) with the original Stable Diffusion model. This integration enhances the capability of the web UI to **control the interactions** in image generation. It works with DreamBooth and LoRA models.
 
 https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-197a-46b2-b3c5-df659aa97f07
 
+## Installation
 
-# Installation
 1. Install the extension via link.
 
-    Open "Extensions" tab and then select "Install from URL". Enter https://github.com/jiuntian/sd-webui-interactdiffusion.git to "URL for extension's git repository" and click Install. Finally, click "Apply and restart UI".
+    Open "Extensions" tab and then select "Install from URL". Enter <https://github.com/jiuntian/sd-webui-interactdiffusion.git> to "URL for extension's git repository" and click Install. Finally, click "Apply and restart UI".
 2. Download the model at [HuggingFace Hub](https://huggingface.co/jiuntian/interactiondiffusion-weight/blob/main/ext_interactdiff_v1.2.pth) with name `ext_interactdiff_v1.2.pth`.
-3. Put models in "stable-diffusion-webui\extensions\sd-webui-interactdiffusion\models". 
+3. Put models in "stable-diffusion-webui\extensions\sd-webui-interactdiffusion\models".
 
-# How to Use
+## How to Use
+
 1. Enable the extension by checking the `Enabled`.
 2. Please append comma seperator to end of each entry in grounding instructions like "tohru=feeding=cat;a=doing=b".
 3. Click on `Create Drawing Canvas` to create a new canvas.
@@ -21,7 +23,8 @@ https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7ea6d9f5-
 5. Adjust scheduling sampling when necessarily.
 6. Generate the image as usual.
 
-# Gallery
+## Gallery
+
 Some examples generated with InteractDiffusion, together with other DreamBooth and LoRA models.
 &nbsp;| &nbsp;| &nbsp;| &nbsp;
 --- | --- | --- | ---
@@ -29,16 +32,25 @@ Some examples generated with InteractDiffusion, together with other DreamBooth a
 ![cuteyukimix_1](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/1416f2b6-4907-4ac7-bb03-b5d2b5adcd91)|![cuteyukimix_7](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/7b619e4e-7d0b-4989-85f9-422fbd6a6319)|![darksushimix_1](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/2b81abe3-a39a-4db8-9e7a-63336f96d7e3)|![toonyou_6](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/ce027fac-7840-44cc-9f69-0bdeef5da1da)
 ![image (8)](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/0bc70ee4-9f84-4340-994c-fbde99a17062)|![cuteyukimix_4](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/0d12f242-cc90-4871-8d2c-02f7c36c70cf)|![darksushimix_5](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/cd716268-92d2-48fa-bbc5-a291c80f7f9a)|![rcnzcartoon_1](https://github.com/jiuntian/sd-webui-interactdiffusion/assets/13869695/ce8c33f1-62fd-4c44-ae76-d5b70b1f05f5)
 
+## Limitations
 
-# Limitations
 1. We currently do not support SDXL yet due to limited computation resources.
 2. It could possibly cause conflicts with other extensions.
 3. Some artefacts could happens on some LoRA models.
 
-# Citation
+## Citation
+
+```bibtex
+@misc{hoe2023interactdiffusion,
+      title={InteractDiffusion: Interaction Control in Text-to-Image Diffusion Models}, 
+      author={Jiun Tian Hoe and Xudong Jiang and Chee Seng Chan and Yap-Peng Tan and Weipeng Hu},
+      year={2023},
+      eprint={2312.05849},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
-```
+## Related Projects
 
-# Related Projects
 This implementation is constructed based on the foundation of [sd_webui_gligen](https://github.com/ashen-sensored/sd_webui_gligen).
